@@ -187,55 +187,61 @@ font-weight: 300;
 }
 /* Card */
 .img-overlay {
-position: relative;
-width: 100%;
-height: 300px;
+  position: relative;
+  width: 100%;
+  height: 300px;
 }
 .img-overlay img {
-width: 100%;
-height: 100%;
-object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .img-overlay .overlay {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .img-overlay .overlay-text {
-position: absolute;
-bottom: 0;
-left: 0;
-width: 100%;
-height: 25%;
-color: #fff;
-padding-left: 10px;
-padding-top: 10px;
-background: rgba(0, 0, 0, 0.8);
-text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  color: #fff;
+  padding-left: 10px;
+  padding-top: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: left;
 }
 .ser {
-text-align: left;
+  text-align: left;
 }
 .smalldetail {
-font-weight: 500;
+  font-weight: 500;
 }
 .overlay-text h4 {
-margin: 0;
-color: #196DB9;
-padding-left: 1vw;
+  margin: 0;
+  color: #196DB9;
+  padding-left: 1vw;
 }
 .smalldetail, .smalldetails {
-margin: 2px 0;
-margin-top: 0;
-font-size: small;
-padding-left: 0.5vw;
+  margin: 2px 0;
+  margin-top: 0;
+  font-size: small;
+  padding-left: 0.5vw;
 }
 @media (max-width: 576px) {
-.img-overlay .overlay-text {
-  padding: 5px;
+  .img-overlay .overlay-text {
+    padding: 5px;
+  }
 }
+@media (max-width: 560px) {
+  .ten {
+    display: flex;
+    flex-direction: column;
+  }
 }
 /* Ratings */
 .reviews-section {
@@ -310,6 +316,12 @@ text-align: center;
       border-color: black;
       border-width: 5px;
       border-radius: 20px;
+    }
+    @media (max-width: 500px ) {
+      .serviceicon {
+        display: flex;
+        flex-direction: column;
+      }
     }
 
     
@@ -417,6 +429,7 @@ background-color: #e8e8e8;
 border: none;
 background-color: #e8e8e8;
 }
+
 
 
 
@@ -837,6 +850,15 @@ a {
 
 
 /* About Us */
+.embark {
+  color: #196DB9; 
+  font-weight: bold; 
+  text-align: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  width: 100%;
+}
+
 .orange{
 background-color: orangered;
 color: black;

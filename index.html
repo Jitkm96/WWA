@@ -162,7 +162,7 @@
             <div class="col-md-4">
                 <div class="stats-box">
                     <div class="stats-number" data-target="0">0</div>
-                    <div class="stats-description">Total Casualties</div>
+                    <div class="stats-description">Safety</div>
                 </div>
             </div>
             <div class="col-md-4">
@@ -221,7 +221,6 @@
       <div class="row g-4 justify-content-center">
           <div class="col-lg-6 col-md-8">
               <div class="review-card p-3 rounded">
-                  <!-- <img class="review-icon mb-3" src="./assets/icons/googleicon.png" alt="Google Reviews" loading="lazy"> -->
                   <div class='sk-ww-google-reviews' data-embed-id='25415512'></div>
               </div>
           </div>
@@ -390,7 +389,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                     } else if (target > 0) {
                                         counter.innerText = `+${target}`;
                                     } else {
-                                        counter.innerText = target;
+                                        counter.innerText = `${target + 100}%`;
                                     }
                                 }
                             };

@@ -244,7 +244,7 @@ font-weight: 300;
   }
 }
 /* Ratings */
-.reviews-section {
+/* .reviews-section {
 background-color: #196DB9;
 color: #fff;
 }
@@ -266,6 +266,39 @@ transform: translateY(-10px);
 }
 .review-content {
 text-align: center;
+} */
+.rating-strip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.0); /* Transparent background */
+  padding-top: ;: 25px; /* Small padding to make the strip thin */
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+.rating-strip > div {
+  margin-right: 20px; /* Small margin between columns */
+}
+.stars {
+  display: flex;
+}
+.star {
+  width: 30px; /* Small size for stars */
+  height: 30px;
+  background-color: rgb(255, 191, 0);
+  clip-path: polygon(
+      50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%
+  );
 }
 
 /* Certification */

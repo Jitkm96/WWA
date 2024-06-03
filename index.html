@@ -36,18 +36,18 @@
   
   <script src="//code.jquery.com/jquery.min.js"></script>
 
-	<script type="text/javascript" >
-		//<!-- start navigation -->
-		$.get("nav.html", function(data){
-			$("#navigation").replaceWith(data);
-		});
+<script type="text/javascript" >
+    //<!-- start navigation -->
+    $.get("nav.html", function(data){
+        $("#navigation").replaceWith(data);
+    });
 
-		// <!-- start footer -->
-		$.get("footer.html", function(data){
-			$("#footer").replaceWith(data);
-		});
-		
-	</script>
+    // <!-- start footer -->
+    $.get("footer.html", function(data){
+        $("#footer").replaceWith(data);
+    });
+
+// </script>
   <!-- nav -->
    
   <div id="navigation"></div>
@@ -55,6 +55,7 @@
   <!-- nav -->
 
 <!-- Banner -->
+<div class="dcs">
 <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
@@ -63,16 +64,18 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item homeSlide11_img active bn">
-      <div class="container">
+      <div class="container" style="max-width: 100%; padding: 0;">
         <div class="carousel-caption text-start">
         </div>
       </div>
     </div>
     <div class="carousel-item homeSlide22_img bn">
-      <div class="container">
+      <div class="container" style="max-width: 100%; padding: 0;">
       </div>
     </div>
     <div class="carousel-item homeSlide33_img bn">
+      <div class="container" style="max-width: 100%; padding: 0;">
+      </div>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -84,7 +87,7 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-<div class="static-caption container text-left">
+<div class="static-caption container text-left" style="max-width: 100%; padding: 0;">
   <div class="carousel-caption text-left">
     <h1 class="bannertxt"><b>Bhutan, Punakha</b></h1>
     <h2 class="bannertxt">Your Premier Destination for Heart-Pounding Rafting Expeditions!</h2>

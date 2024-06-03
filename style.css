@@ -99,6 +99,9 @@
 
 
  /* Banner */
+ .dcs {
+  width: 100% !important;
+ }
 .banner {
 background-size: cover;
 background-position: center;
@@ -141,14 +144,19 @@ color: #196DB9;
   background-size: cover;
   background-position: center; 
 }
-
+#myCarousel {
+  max-width: 100%;
+}
 
 .bn {
 background-repeat:no-repeat;
 background-size:cover;
 background-position:center center;
 height:500px;
+width: 100%;
+max-width: 100%;
 position:relative;
+box-sizing: border-box;
 }
 /* crousel button and text */
 .static-caption {
@@ -156,6 +164,7 @@ position: absolute;
 top: 450px;
 left: 10px;
 text-align: left;
+max-width: 100%;
 z-index: 10;
 }
 .bannertxt {
@@ -172,6 +181,7 @@ font-weight: 300;
   position: absolute;
   top: 400px;
   left: 6px;
+  max-width: 100%;
   text-align: left;
   z-index: 10;
 }
@@ -181,6 +191,7 @@ font-weight: 300;
   position: absolute;
   top: 400px;
   left: 5px;
+  max-width: 100%;
   text-align: left;
   z-index: 10;
 }

@@ -144,17 +144,12 @@ color: #196DB9;
   background-size: cover;
   background-position: center; 
 }
-#myCarousel {
-  max-width: 100%;
-}
 
 .bn {
 background-repeat:no-repeat;
 background-size:cover;
 background-position:center center;
 height:500px;
-width: 100%;
-max-width: 100%;
 position:relative;
 box-sizing: border-box;
 }

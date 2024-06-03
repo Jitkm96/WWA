@@ -243,6 +243,25 @@ font-weight: 300;
     flex-direction: column;
   }
 }
+/* rating */
+.google {
+  position: relative;
+  overflow: hidden;
+}
+
+.google::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/icons/googleicon.png'); 
+  background-size: cover;
+  background-position: center;
+  opacity: 0.08;
+  z-index: 1;
+}
 /* Ratings */
 .reviews-section {
 background-color: #196DB9;
